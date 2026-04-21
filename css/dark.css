@@ -1,0 +1,27 @@
+/* ============================================
+   dark.css — Applied when <html data-theme="dark">
+   ============================================ */
+[data-theme="dark"]{
+  --bg:#18181b; --surface:#27272a; --surface2:#1c1c1f;
+  --border:#3f3f46; --border2:#52525b;
+  --text:#fafafa; --text2:#d4d4d8; --text3:#a1a1aa; --text4:#71717a;
+  --ug-l:#0a2e20; --primary-s:#1e1b38; --primary-b:#534ab7;
+  --teal-s:#0a2e20; --teal-b:#1d9e75;
+  --green-s:#0f2208; --green-b:#639922; --green-t:#86efac;
+  --amber-s:#2e1c04; --amber-b:#ba7517; --amber-t:#fcd34d;
+  --danger-s:#2d0d0d; --danger-b:#e24b4a; --danger-t:#fca5a5;
+  --gray-s:#27272a; --gray-b:#3f3f46; --gray-t:#a1a1aa;
+}
+[data-theme="dark"] #qr-box{border-color:var(--border)}
+[data-theme="dark"] .uid-box{border:1px solid var(--border)}
+[data-theme="dark"] input,[data-theme="dark"] select{color-scheme:dark}
+[data-theme="dark"] .modal-overlay{background:rgba(0,0,0,.72)}
+[data-theme="dark"] .lecid-box{background:linear-gradient(135deg,#004d2d,#007a48)}
+[data-theme="dark"] .fp-step{background:#0a2e20}
+[data-theme="dark"] .fp-scan-area{background:var(--surface2)}
+[data-theme="dark"] .loc-step{background:#0a2e20}
+[data-theme="dark"] .auth-card{box-shadow:0 4px 20px rgba(0,0,0,.4)}
+[data-theme="dark"] .land-title{color:#5dcaa5}
+[data-theme="dark"] .stu-code{color:#5dcaa5}
+[data-theme="dark"] .tab.active{color:#5dcaa5;border-bottom-color:#5dcaa5}
+[data-theme="dark"] .uid-box{background:#09090b}
